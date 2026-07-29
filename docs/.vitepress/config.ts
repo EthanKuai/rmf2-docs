@@ -12,9 +12,14 @@ export default withMermaid(
     description: 'RMF2 Documentation',
     // localhost URLs in module docs are runtime endpoints, not site links
     ignoreDeadLinks: [/^https?:\/\/localhost/],
+    head: [['link', { rel: 'icon', href: '/icons/logo-dark.svg' }]],
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       siteTitle: 'RMF Industrial',
+      logo: {
+        light: '/icons/logo-light.svg',
+        dark: '/icons/logo-dark.svg',
+      },
       nav: [
         { text: 'Guide', link: '/guide/what-is-rmf2' },
         { text: 'References', link: '/references/overview' },
