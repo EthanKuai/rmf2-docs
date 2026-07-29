@@ -11,9 +11,7 @@ It will be added in a future release.
 
 React Library and Sample Web Dashboard for RMF2
 
-<p>
-  <img src="/demo/desktop-light-schedule.png" alt="desktop-light-schedule" height="300"/>
-</p>
+![desktop-schedule](/demo/desktop-light-schedule.png){.invertible}
 
 ## Project Structure
 
