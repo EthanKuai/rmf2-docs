@@ -2,3 +2,11 @@
   height: 48px;
   /* height: 24px */
 }
+
+/* Inverts image in dark mode */
+html.dark .invertible {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  mix-blend-mode: difference;
+  mix-blend-mode: plus-lighter;
+}
