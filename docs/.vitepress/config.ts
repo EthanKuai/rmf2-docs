@@ -71,8 +71,10 @@ export default withMermaid(
       },
 
       footer: {
-        message: 'Released under the Apache-2.0 License.',
-        copyright: 'Copyright (C) 2026 ROS-Industrial Consortium Asia Pacific',
+        message:
+          'For collaboration opportunities, please reach out to <a href="mailto:ros-i_asia@a-star.edu.sg">ros-i_asia@a-star.edu.sg</a>',
+        copyright:
+          'Released under the <a href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache-2.0 License</a>  |  © 2026 <a href="https://rosindustrial.org/ric-apac">ROS-Industrial Consortium Asia Pacific</a>',
       },
 
       socialLinks: [
