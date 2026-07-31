@@ -70,9 +70,7 @@ docs/
 ├── references/                # API references
 │   └── ...
 └── .vitepress/
-    ├── theme/
-    |   ├── index.js           # global config
-    |   └── custom.css         # CSS theme overrides
+    ├── theme/                 # theme config, CSS overrides
     └── config.ts              # nav, sidebar, search
 ```
 
